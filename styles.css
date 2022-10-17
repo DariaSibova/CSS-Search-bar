@@ -21,4 +21,14 @@
     background: #f1f1f1;
     height: 100vh;
   }
-  
+  .search-bar input,
+.search-btn, 
+.search-btn:before, 
+.search-btn:after {
+  transition: all 0.25s ease-out;
+}
+.search-bar input,
+.search-btn {
+  width: 3em;
+  height: 3em;
+}
